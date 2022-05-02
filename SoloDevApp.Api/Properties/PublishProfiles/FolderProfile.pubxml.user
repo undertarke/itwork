@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+<<<<<<< HEAD
+    <_PublishTargetUrl>C:\Users\Dell\Desktop\crm\api\api.cybersoft.edu.vn\SoloDevApp.Api\bin\Release\netcoreapp2.1\publish\</_PublishTargetUrl>
+=======
+    <_PublishTargetUrl>D:\source\GitHub\api.cybersoft.edu.vn\SoloDevApp.Api\bin/Release/netcoreapp2.1/publish</_PublishTargetUrl>
+    <History>True|2022-01-21T02:16:32.6101325Z;True|2022-01-20T17:06:55.6516619+07:00;True|2022-01-20T15:51:14.9839619+07:00;True|2022-01-11T10:28:07.5262125+07:00;True|2022-01-04T22:43:53.2563963+07:00;True|2021-12-31T00:30:49.7081391+07:00;True|2021-12-28T23:45:00.3661237+07:00;True|2021-12-27T14:56:28.3656739+07:00;True|2021-12-27T14:56:09.0195028+07:00;True|2021-12-17T18:49:34.3562413+07:00;True|2021-12-17T18:48:55.3002185+07:00;</History>
+>>>>>>> 2c3ac8ba25f03505fb93fcb01b3f3e97d995b598
+  </PropertyGroup>
+</Project>

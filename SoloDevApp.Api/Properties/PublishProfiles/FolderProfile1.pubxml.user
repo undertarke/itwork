@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <History>True|2022-04-27T08:59:51.5276854Z;False|2022-04-27T15:59:42.5454014+07:00;True|2022-04-15T09:56:52.6909623+07:00;False|2022-04-15T09:56:39.5739335+07:00;True|2022-04-13T18:20:42.8779146+07:00;False|2022-04-13T18:20:30.1415091+07:00;True|2022-04-12T14:13:02.2279735+07:00;False|2022-04-12T14:12:53.2440535+07:00;True|2022-04-11T22:24:11.7718242+07:00;False|2022-04-11T22:24:06.1626458+07:00;True|2022-04-08T16:33:02.1590987+07:00;False|2022-04-08T16:32:57.8734855+07:00;True|2022-04-07T13:05:07.7635531+07:00;False|2022-04-07T13:05:03.0947065+07:00;True|2022-04-02T22:10:36.5343973+07:00;False|2022-04-02T22:10:28.5247457+07:00;True|2022-04-02T12:19:39.4574848+07:00;False|2022-04-02T12:19:30.0807361+07:00;True|2022-04-02T11:45:19.4382696+07:00;True|2022-04-02T11:26:49.0355289+07:00;False|2022-04-02T11:26:41.4714582+07:00;</History>
+    <_PublishTargetUrl>D:\source\GitHub\api.cybersoft.edu.vn\SoloDevApp.Api\bin\Release\netcoreapp2.1\publish\</_PublishTargetUrl>
+  </PropertyGroup>
+</Project>

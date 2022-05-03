@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SoloDevApp.Api.Controllers
 {
-    [Route("api/NguoiDung")]
+    [Route("api/nguoidung")]
     [ApiController]
    /* [ApiKeyAuth]
     [Authorize(Roles = "DAALL")]*/

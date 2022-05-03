@@ -42,12 +42,17 @@ namespace SoloDevApp.Api
          
             services.AddTransient<INewMauRepository, NewMauRepository>();
             services.AddTransient<INguoiDungRepository, NguoiDungRepository>();
+            services.AddTransient<ISkillRepository, SkillRepository>();
+            services.AddTransient<INguoiDung_SkillRepository, NguoiDung_SkillRepository>();
+            services.AddTransient<ICauHinhRepository, CauHinhRepository>();
 
             // ==================== SERVICE ====================
 
             services.AddTransient<INguoiDungService, NguoiDungService>();
             services.AddTransient<IFileService, FileService>();
-
+            services.AddTransient<ISkillService, SkillService>();
+            services.AddTransient<INguoiDung_SkillService, NguoiDung_SkillService>();
+            services.AddTransient<ICauHinhService, CauHinhService>();
             // ==================== HELPER ====================
             services.AddSingleton<INotificationService, NotificationService>();
             services.AddSingleton<ITranslator, Translator>();

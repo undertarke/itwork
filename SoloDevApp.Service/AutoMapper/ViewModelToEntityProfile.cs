@@ -13,6 +13,9 @@ namespace SoloDevApp.Service.AutoMapper
            
             CreateMap<NewMauViewModel, NewMau>();
             CreateMap<NguoiDungViewModel, NguoiDung>();
+            CreateMap<SkillViewModel, Skill>();
+            CreateMap<NguoiDung_SkillViewModel, NguoiDung_Skill>();
+            CreateMap<CauHinhViewModel, CauHinh>();
         }
     }
 }

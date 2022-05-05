@@ -54,7 +54,7 @@ namespace SoloDevApp.Api
             services.AddTransient<INgoaiNguRepository, NgoaiNguRepository>();
 
             // ==================== SERVICE ====================
-
+            services.AddTransient<INewMauService, NewMauService>();
             services.AddTransient<INguoiDungService, NguoiDungService>();
             services.AddTransient<IFileService, FileService>();
             services.AddTransient<ISkillService, SkillService>();

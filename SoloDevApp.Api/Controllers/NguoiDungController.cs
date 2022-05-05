@@ -2,7 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SoloDevApp.Api.Filters;
+using SoloDevApp.Service.Constants;
 using SoloDevApp.Service.Services;
+using SoloDevApp.Service.Utilities;
 using SoloDevApp.Service.ViewModels;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -44,10 +46,17 @@ namespace SoloDevApp.Api.Controllers
             return await _nguoiDungService.InsertAsync(model);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Put(string id, [FromBody] NguoiDungViewModel model)
+        [HttpPut]
+        public async Task<IActionResult> Put([FromHeader] string Authorization, [FromBody] NguoiDungViewModel model)
         {
-            return await _nguoiDungService.UpdateAsync(id, model);
+            if (Authorization?.Length > 0)
+            {
+                string id = FuncUtilities.GetUserIdFromHeaderToken(Authorization);
+                return await _nguoiDungService.UpdateAsync(id, model);
+
+
+            }
+            return new ResponseEntity(StatusCodeConstants.BAD_REQUEST, "Thiếu token");
         }
 
         [HttpDelete]

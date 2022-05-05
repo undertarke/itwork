@@ -17,6 +17,13 @@ namespace SoloDevApp.Service.AutoMapper
             CreateMap<Skill, SkillViewModel>();
             CreateMap<NguoiDung_Skill, NguoiDung_SkillViewModel>();
             CreateMap<CauHinh, CauHinhViewModel>();
+            CreateMap<HoSo_Skill, HoSo_SkillViewModel>();
+            CreateMap<KinhNghiem, KinhNghiemViewModel>();
+            CreateMap<HocVan, HocVanViewModel>();
+            CreateMap<ChungChi, ChungChiViewModel>();
+            CreateMap<DuAn, DuAnViewModel>();
+            CreateMap<KyNangMem, KyNangMemViewModel>();
+            CreateMap<NgoaiNgu, NgoaiNguViewModel>();
         }
     }
 }

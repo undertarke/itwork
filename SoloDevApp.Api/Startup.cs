@@ -45,6 +45,13 @@ namespace SoloDevApp.Api
             services.AddTransient<ISkillRepository, SkillRepository>();
             services.AddTransient<INguoiDung_SkillRepository, NguoiDung_SkillRepository>();
             services.AddTransient<ICauHinhRepository, CauHinhRepository>();
+            services.AddTransient<IHoSo_SkillRepository, HoSo_SkillRepository>();
+            services.AddTransient<IKinhNghiemRepository, KinhNghiemRepository>();
+            services.AddTransient<IHocVanRepository, HocVanRepository>();
+            services.AddTransient<IChungChiRepository, ChungChiRepository>();
+            services.AddTransient<IDuAnRepository, DuAnRepository>();
+            services.AddTransient<IKyNangMemRepository, KyNangMemRepository>();
+            services.AddTransient<INgoaiNguRepository, NgoaiNguRepository>();
 
             // ==================== SERVICE ====================
 
@@ -53,6 +60,14 @@ namespace SoloDevApp.Api
             services.AddTransient<ISkillService, SkillService>();
             services.AddTransient<INguoiDung_SkillService, NguoiDung_SkillService>();
             services.AddTransient<ICauHinhService, CauHinhService>();
+            services.AddTransient<IHoSo_SkillService, HoSo_SkillService>();
+            services.AddTransient<IKinhNghiemService, KinhNghiemService>();
+            services.AddTransient<IHocVanService, HocVanService>();
+            services.AddTransient<IChungChiService, ChungChiService>();
+            services.AddTransient<IDuAnService, DuAnService>();
+            services.AddTransient<IKyNangMemService, KyNangMemService>();
+            services.AddTransient<INgoaiNguService, NgoaiNguService>();
+
             // ==================== HELPER ====================
             services.AddSingleton<INotificationService, NotificationService>();
             services.AddSingleton<ITranslator, Translator>();

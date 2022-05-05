@@ -18,11 +18,14 @@ namespace SoloDevApp.Api.Controllers
     {
         private ISkillService _skillService;
         private INguoiDung_SkillService _nguoiDung_SkillService;
+        private IHoSo_SkillService _hoSo_SkillService;
 
-        public SkillController(ISkillService skillService, INguoiDung_SkillService nguoiDung_SkillService)
+
+        public SkillController(ISkillService skillService, INguoiDung_SkillService nguoiDung_SkillService, IHoSo_SkillService hoSo_SkillService)
         {
             _skillService = skillService;
             _nguoiDung_SkillService=nguoiDung_SkillService;
+            _hoSo_SkillService=hoSo_SkillService; 
         }
 
         [HttpGet]
@@ -58,7 +61,7 @@ namespace SoloDevApp.Api.Controllers
         }
 
 
-        //nguoidung skill 
+        //quan ly skill cua nguoi dung
         [HttpGet("user-skill")]
         public async Task<IActionResult> LayNguoiDungSkill()
         {
@@ -66,9 +69,23 @@ namespace SoloDevApp.Api.Controllers
         }
 
         [HttpPost("user-skill")]
-        public async Task<IActionResult> ThemNguoiDungSkill([FromBody] ThemDanhSachSkill_NguoiDung model)
+        public async Task<IActionResult> ThemNguoiDungSkill([FromBody] ThemDanhSachHoSo_NguoiDung model)
         {
             return await _nguoiDung_SkillService.ThemNguoiDungSkill(model);
+        }
+
+
+        //quan ly  skill cua CV
+        [HttpGet("hoso-skill")]
+        public async Task<IActionResult> LayHoSoSkill()
+        {
+            return await _nguoiDung_SkillService.GetAllAsync();
+        }
+
+        [HttpPost("hoso-skill")]
+        public async Task<IActionResult> ThemHoSoSkill([FromBody] ThemDanhSachHoSo_NguoiDung model)
+        {
+            return await _hoSo_SkillService.ThemHoSoSkill(model);
         }
     }
 }

@@ -15,7 +15,7 @@ namespace SoloDevApp.Service.Services
     public interface INguoiDung_SkillService : IService<NguoiDung_Skill, NguoiDung_SkillViewModel>
     {
      
-        Task<ResponseEntity> ThemNguoiDungSkill(ThemDanhSachSkill_NguoiDung model);
+        Task<ResponseEntity> ThemNguoiDungSkill(ThemDanhSachHoSo_NguoiDung model);
 
     }
 
@@ -28,12 +28,12 @@ namespace SoloDevApp.Service.Services
             _nguoiDung_SkillRepository = nguoiDung_SkillRepository;
         }
 
-        public async Task<ResponseEntity> ThemNguoiDungSkill(ThemDanhSachSkill_NguoiDung model)
+        public async Task<ResponseEntity> ThemNguoiDungSkill(ThemDanhSachHoSo_NguoiDung model)
         {
             try
             {
 
-                foreach(NguoiDung_SkillViewModel nguoiDung_Skill in model.lstSkill)
+                foreach(dynamic nguoiDung_Skill in model.lstHoSo)
                 {
 
                     List<KeyValuePair<string, dynamic>> columns =   new List<KeyValuePair<string, dynamic>>();
@@ -46,12 +46,17 @@ namespace SoloDevApp.Service.Services
                         checkNguoiDung_Skill = new NguoiDung_Skill();
                         checkNguoiDung_Skill.IdSkill = nguoiDung_Skill.IdSkill;   
                         checkNguoiDung_Skill.NguoiDungId = nguoiDung_Skill.NguoiDungId;
-                        checkNguoiDung_Skill.XacMinh = false;
-
+                        checkNguoiDung_Skill.CapDo = checkNguoiDung_Skill.CapDo;
 
                         await _nguoiDung_SkillRepository.InsertAsync(checkNguoiDung_Skill);
                     }
-                   
+                    else
+                    {
+                        checkNguoiDung_Skill.CapDo= nguoiDung_Skill.CapDo;
+                        await _nguoiDung_SkillRepository.UpdateAsync(checkNguoiDung_Skill.Id,checkNguoiDung_Skill);
+
+                    }
+
                 }
 
                 return new ResponseEntity(StatusCodeConstants.OK, 1);

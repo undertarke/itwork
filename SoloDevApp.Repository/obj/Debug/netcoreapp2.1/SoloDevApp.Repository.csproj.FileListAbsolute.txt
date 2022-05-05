@@ -8,6 +8,9 @@ D:\source\api.cybersoft.edu.vn\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\Sol
 D:\source\api.cybersoft.edu.vn\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.csproj.CoreCompileInputs.cache
 D:\source\api.cybersoft.edu.vn\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.dll
 D:\source\api.cybersoft.edu.vn\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.pdb
+D:\source\itwork\SoloDevApp.Repository\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.deps.json
+D:\source\itwork\SoloDevApp.Repository\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.dll
+D:\source\itwork\SoloDevApp.Repository\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.pdb
 D:\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.csproj.AssemblyReference.cache
 D:\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
 D:\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.AssemblyInfoInputs.cache
@@ -15,6 +18,3 @@ D:\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Reposi
 D:\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.csproj.CoreCompileInputs.cache
 D:\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.dll
 D:\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.pdb
-D:\source\itwork\SoloDevApp.Repository\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.deps.json
-D:\source\itwork\SoloDevApp.Repository\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.dll
-D:\source\itwork\SoloDevApp.Repository\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.pdb

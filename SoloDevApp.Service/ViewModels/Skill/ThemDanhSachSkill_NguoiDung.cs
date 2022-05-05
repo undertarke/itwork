@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace SoloDevApp.Service.ViewModels
 {
-    public class ThemDanhSachSkill_NguoiDung
+    public class ThemDanhSachHoSo_NguoiDung
     {
         public int NguoiDungId { get; set; }
-        public List<NguoiDung_SkillViewModel> lstSkill { get;set; }
+        public List<dynamic> lstHoSo { get;set; }
     }
 }

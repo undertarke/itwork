@@ -28,7 +28,11 @@ namespace SoloDevApp.Api.Controllers
         {
             return await _cauHinhService.GetAllAsync();
         }
+        [HttpGet("chuc-danh/{MaCauHinh}")]
+        public async Task<IActionResult> LayChucDanh(string MaCauHinh)
+        {
+            return await _cauHinhService.LayChucDanh(MaCauHinh);
+        }
 
-      
     }
 }

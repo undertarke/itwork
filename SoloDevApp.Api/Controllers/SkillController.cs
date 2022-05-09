@@ -2,7 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SoloDevApp.Api.Filters;
+using SoloDevApp.Service.Constants;
 using SoloDevApp.Service.Services;
+using SoloDevApp.Service.Utilities;
 using SoloDevApp.Service.ViewModels;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -63,9 +65,16 @@ namespace SoloDevApp.Api.Controllers
 
         //quan ly skill cua nguoi dung
         [HttpGet("user-skill")]
-        public async Task<IActionResult> LayNguoiDungSkill()
+        public async Task<IActionResult> LayNguoiDungSkill([FromHeader] string Authorization)
         {
-            return await _nguoiDung_SkillService.GetAllAsync();
+            if (Authorization?.Length > 0)
+            {
+                string NguoiDungId = FuncUtilities.GetUserIdFromHeaderToken(Authorization);
+                return await _nguoiDung_SkillService.LayNguoiDung_Skill(NguoiDungId);
+
+            }
+            return new ResponseEntity(StatusCodeConstants.BAD_REQUEST, "token expired");
+          
         }
 
         [HttpPost("user-skill")]

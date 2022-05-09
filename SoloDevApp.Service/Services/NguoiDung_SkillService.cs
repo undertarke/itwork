@@ -16,6 +16,7 @@ namespace SoloDevApp.Service.Services
     {
      
         Task<ResponseEntity> ThemNguoiDungSkill(ThemDanhSachHoSo_NguoiDung model);
+        Task<ResponseEntity> LayNguoiDung_Skill(string NguoiDungId);
 
     }
 
@@ -46,7 +47,7 @@ namespace SoloDevApp.Service.Services
                         checkNguoiDung_Skill = new NguoiDung_Skill();
                         checkNguoiDung_Skill.IdSkill = nguoiDung_Skill.IdSkill;   
                         checkNguoiDung_Skill.NguoiDungId = nguoiDung_Skill.NguoiDungId;
-                        checkNguoiDung_Skill.CapDo = checkNguoiDung_Skill.CapDo;
+                        checkNguoiDung_Skill.CapDo = nguoiDung_Skill.CapDo;
 
                         await _nguoiDung_SkillRepository.InsertAsync(checkNguoiDung_Skill);
                     }
@@ -59,7 +60,10 @@ namespace SoloDevApp.Service.Services
 
                 }
 
-                return new ResponseEntity(StatusCodeConstants.OK, 1);
+                IEnumerable<NguoiDung_Skill> lstNguoiDung_Skill = await _nguoiDung_SkillRepository.GetMultiByConditionAsync("NguoiDungId", model.NguoiDungId);
+
+
+                return new ResponseEntity(StatusCodeConstants.OK, lstNguoiDung_Skill);
             }
             catch (Exception ex)
             {
@@ -67,6 +71,21 @@ namespace SoloDevApp.Service.Services
             }
         }
 
+        public async Task<ResponseEntity> LayNguoiDung_Skill(string NguoiDungId)
+        {
+            try
+            {
 
+
+                IEnumerable<NguoiDung_Skill> lstNguoiDung_Skill = await _nguoiDung_SkillRepository.GetMultiByConditionAsync("NguoiDungId", NguoiDungId);
+
+
+                return new ResponseEntity(StatusCodeConstants.OK, lstNguoiDung_Skill);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

@@ -16,7 +16,7 @@ namespace SoloDevApp.Service.Services
     public interface IDuAnService : IService<DuAn, DuAnViewModel>
     {
 
-        Task<ResponseEntity> ThemDuAn(ThemDanhSachHoSo_NguoiDung model);
+        Task<ResponseEntity> ThemDuAn(ThemDanhSachSkill_NguoiDung model);
 
 
     }
@@ -30,7 +30,7 @@ namespace SoloDevApp.Service.Services
             _duAnRepository = duAnRepository;
         }
 
-        public async Task<ResponseEntity> ThemDuAn(ThemDanhSachHoSo_NguoiDung model)
+        public async Task<ResponseEntity> ThemDuAn(ThemDanhSachSkill_NguoiDung model)
         {
             try
             {
@@ -53,7 +53,7 @@ namespace SoloDevApp.Service.Services
 
                     DuAn duAn = new DuAn();
                     duAn.TenDuAn = item.TenDuAn;
-                    duAn.Skill = item.Skill;
+                    duAn.Skill = JsonConvert.SerializeObject(item.Skill);
                     duAn.SoThanhVien = item.SoThanhVien;
                     duAn.LinkDemo = item.LinkDemo;
                     duAn.MoTa = item.MoTa;

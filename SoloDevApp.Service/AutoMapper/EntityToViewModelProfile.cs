@@ -21,9 +21,12 @@ namespace SoloDevApp.Service.AutoMapper
             CreateMap<KinhNghiem, KinhNghiemViewModel>();
             CreateMap<HocVan, HocVanViewModel>();
             CreateMap<ChungChi, ChungChiViewModel>();
-            CreateMap<DuAn, DuAnViewModel>();
+            CreateMap<DuAn, DuAnViewModel>().ForMember(entity => entity.Skill,
+                                m => m.MapFrom(modelVm => JsonConvert.DeserializeObject<List<string>>(modelVm.Skill)));
             CreateMap<KyNangMem, KyNangMemViewModel>();
             CreateMap<NgoaiNgu, NgoaiNguViewModel>();
+            CreateMap<NguoiDung, ThongTinNguoiDung>();
+
         }
     }
 }

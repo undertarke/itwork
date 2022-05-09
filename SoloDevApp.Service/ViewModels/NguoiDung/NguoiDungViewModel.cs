@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace SoloDevApp.Repository.Models
+namespace SoloDevApp.Service.ViewModels
 {
-    public class NguoiDung
+    public class NguoiDungViewModel
     {
         public int Id { get; set; }
         public int ChucDanh { get; set; }

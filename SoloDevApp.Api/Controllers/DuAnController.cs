@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SoloDevApp.Api.Controllers
 {
-    [Route("api/DuAn")]
+    [Route("api/duan")]
     [ApiController]
    /* [ApiKeyAuth]
     [Authorize(Roles = "DAALL")]*/
@@ -24,7 +24,7 @@ namespace SoloDevApp.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] ThemDanhSachHoSo_NguoiDung model)
+        public async Task<IActionResult> Post([FromBody] ThemDanhSachSkill_NguoiDung model)
         {
             return await _duAnService.ThemDuAn(model);
         }

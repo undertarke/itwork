@@ -26,7 +26,6 @@ namespace SoloDevApp.Api.Controllers
         }
 
         [HttpGet]
-        //[Authorize(Roles = "VIEW_ROLE")]
         public async Task<IActionResult> Get()
         {
             return await _nguoiDungService.GetAllAsync();
@@ -56,13 +55,26 @@ namespace SoloDevApp.Api.Controllers
 
 
             }
-            return new ResponseEntity(StatusCodeConstants.BAD_REQUEST, "Thiếu token");
+            return new ResponseEntity(StatusCodeConstants.BAD_REQUEST, "token expired");
         }
 
         [HttpDelete]
         public async Task<IActionResult> Delete([FromBody] List<dynamic> Ids)
         {
             return await _nguoiDungService.DeleteByIdAsync(Ids);
+        }
+
+        [HttpGet("lay-thong-tin-user")]
+        public async Task<IActionResult> LayThongTinUser([FromHeader] string Authorization)
+        {
+            if (Authorization?.Length > 0)
+            {
+                string id = FuncUtilities.GetUserIdFromHeaderToken(Authorization);
+                return await _nguoiDungService.LayThongTinUser(id);
+
+
+            }
+            return new ResponseEntity(StatusCodeConstants.BAD_REQUEST, "token expired");
         }
     }
 }

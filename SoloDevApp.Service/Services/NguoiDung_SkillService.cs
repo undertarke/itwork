@@ -38,7 +38,7 @@ namespace SoloDevApp.Service.Services
                 {
 
                     List<KeyValuePair<string, dynamic>> columns =   new List<KeyValuePair<string, dynamic>>();
-                    columns.Add(new KeyValuePair<string, dynamic>("IdSkill",nguoiDung_Skill.IdSkill));
+                    columns.Add(new KeyValuePair<string, dynamic>("IdSkill",nguoiDung_Skill.idSkill));
                     columns.Add(new KeyValuePair<string, dynamic>("NguoiDungId", model.NguoiDungId));
 
                     NguoiDung_Skill checkNguoiDung_Skill = await _nguoiDung_SkillRepository.GetSingleByListConditionAsync(columns);
@@ -46,7 +46,7 @@ namespace SoloDevApp.Service.Services
                     {
                         checkNguoiDung_Skill = new NguoiDung_Skill();
                         checkNguoiDung_Skill.IdSkill = nguoiDung_Skill.idSkill;   
-                        checkNguoiDung_Skill.NguoiDungId = nguoiDung_Skill.nguoiDungId;
+                        checkNguoiDung_Skill.NguoiDungId = model.NguoiDungId;
                         checkNguoiDung_Skill.CapDo = nguoiDung_Skill.capDo;
 
                         await _nguoiDung_SkillRepository.InsertAsync(checkNguoiDung_Skill);

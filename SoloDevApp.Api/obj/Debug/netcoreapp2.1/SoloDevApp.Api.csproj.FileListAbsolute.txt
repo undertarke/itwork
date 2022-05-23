@@ -24,32 +24,6 @@ D:\source\api.cybersoft.edu.vn\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp
 D:\source\api.cybersoft.edu.vn\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.dll
 D:\source\api.cybersoft.edu.vn\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.pdb
 D:\source\api.cybersoft.edu.vn\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.genruntimeconfig.cache
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\web.config
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\appsettings.Development.json
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\appsettings.json
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\Config\google-tranlation.json
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Api.deps.json
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Api.runtimeconfig.json
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Api.runtimeconfig.dev.json
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Api.dll
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Api.pdb
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.dll
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Service.dll
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.pdb
-D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Service.pdb
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.csproj.AssemblyReference.cache
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.GeneratedMSBuildEditorConfig.editorconfig
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.AssemblyInfoInputs.cache
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.AssemblyInfo.cs
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.csproj.CoreCompileInputs.cache
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.RazorAssemblyInfo.cache
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.RazorAssemblyInfo.cs
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.RazorTargetAssemblyInfo.cache
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.csproj.CopyComplete
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.dll
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.pdb
-D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.genruntimeconfig.cache
 D:\New folder\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\web.config
 D:\New folder\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\appsettings.Development.json
 D:\New folder\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\appsettings.json
@@ -76,3 +50,29 @@ D:\New folder\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Ap
 D:\New folder\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.dll
 D:\New folder\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.pdb
 D:\New folder\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.genruntimeconfig.cache
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\web.config
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\appsettings.json
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\Config\google-tranlation.json
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Api.deps.json
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Api.runtimeconfig.json
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Api.runtimeconfig.dev.json
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Api.dll
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Api.pdb
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.dll
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Service.dll
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.pdb
+D:\source\itwork\SoloDevApp.Api\bin\Debug\netcoreapp2.1\SoloDevApp.Service.pdb
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.csproj.AssemblyReference.cache
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.AssemblyInfoInputs.cache
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.AssemblyInfo.cs
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.csproj.CoreCompileInputs.cache
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.RazorAssemblyInfo.cache
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.RazorAssemblyInfo.cs
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.RazorTargetAssemblyInfo.cache
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.csproj.CopyComplete
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.dll
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.pdb
+D:\source\itwork\SoloDevApp.Api\obj\Debug\netcoreapp2.1\SoloDevApp.Api.genruntimeconfig.cache

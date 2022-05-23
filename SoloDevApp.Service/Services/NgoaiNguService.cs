@@ -52,8 +52,8 @@ namespace SoloDevApp.Service.Services
                 {
 
                     NgoaiNgu ngoaiNgu = new NgoaiNgu();
-                    ngoaiNgu.TenNgonNgu = item.TenNgonNgu;
-                    ngoaiNgu.CapDo = item.CapDo;
+                    ngoaiNgu.TenNgonNgu = item.tenNgonNgu;
+                    ngoaiNgu.CapDo = item.capDo;
                     ngoaiNgu.NguoiDungId = model.NguoiDungId;
 
                     await _ngoaiNguRepository.InsertAsync(ngoaiNgu);

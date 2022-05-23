@@ -20,5 +20,14 @@ namespace SoloDevApp.Repository.Models
         public double Rank { get; set; }
         public DateTime NgayCapNhat { get; set; }
         public int TrangThai { get; set; }
+
+        public string IdFacebook { get; set; }
+        public string IdGoogle { get; set; }
+        public string Pass { get; set; }
+
+        public NguoiDung()
+        {
+            NgayCapNhat= DateTime.Now;
+        }
     }
 }

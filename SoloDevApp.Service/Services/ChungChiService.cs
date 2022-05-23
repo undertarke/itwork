@@ -52,10 +52,10 @@ namespace SoloDevApp.Service.Services
                 {
 
                     ChungChi chungChi = new ChungChi();
-                    chungChi.TenChungChi = item.TenChungChi;
-                    chungChi.ToChuc = item.ToChuc;
-                    chungChi.Nam = item.Nam;
-                    chungChi.LinkChungChi = item.LinkChungChi;
+                    chungChi.TenChungChi = item.tenChungChi;
+                    chungChi.ToChuc = item.toChuc;
+                    chungChi.Nam = item.nam;
+                    chungChi.LinkChungChi = item.linkChungChi;
                     chungChi.NguoiDungId = model.NguoiDungId;
 
                     await _chungChiRepository.InsertAsync(chungChi);

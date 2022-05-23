@@ -58,6 +58,12 @@ namespace SoloDevApp.Api.Controllers
             return new ResponseEntity(StatusCodeConstants.BAD_REQUEST, "token expired");
         }
 
+        [HttpPost("login-user")]
+        public async Task<IActionResult> LoginFacebook([FromBody] LoginUser model)
+        {
+            return await _nguoiDungService.LoginFacebook(model);
+        }
+
         [HttpDelete]
         public async Task<IActionResult> Delete([FromBody] List<dynamic> Ids)
         {
@@ -75,6 +81,27 @@ namespace SoloDevApp.Api.Controllers
 
             }
             return new ResponseEntity(StatusCodeConstants.BAD_REQUEST, "token expired");
+        }
+
+        [HttpPost("dang-ky")]
+        public async Task<IActionResult> SignUp([FromBody] SignUpUser model)
+        {
+            
+                return await _nguoiDungService.SignUp(model);
+
+        }
+        [HttpPost("doi-mat-khau")]
+        public async Task<IActionResult> ChangePass([FromHeader] string Authorization, [FromBody] ChangePassUser model)
+        {
+
+            if (Authorization?.Length > 0)
+            {
+                string id = FuncUtilities.GetUserIdFromHeaderToken(Authorization);
+
+                return await _nguoiDungService.ChangePass(id,model);
+            }
+            return new ResponseEntity(StatusCodeConstants.BAD_REQUEST, "token expired");
+
         }
     }
 }

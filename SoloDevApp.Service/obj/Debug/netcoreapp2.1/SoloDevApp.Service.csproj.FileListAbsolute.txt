@@ -24,3 +24,16 @@ D:\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.c
 D:\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.csproj.CopyComplete
 D:\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.dll
 D:\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.pdb
+D:\New folder\source\itwork\SoloDevApp.Service\bin\Debug\netcoreapp2.1\SoloDevApp.Service.deps.json
+D:\New folder\source\itwork\SoloDevApp.Service\bin\Debug\netcoreapp2.1\SoloDevApp.Service.dll
+D:\New folder\source\itwork\SoloDevApp.Service\bin\Debug\netcoreapp2.1\SoloDevApp.Service.pdb
+D:\New folder\source\itwork\SoloDevApp.Service\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.dll
+D:\New folder\source\itwork\SoloDevApp.Service\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.pdb
+D:\New folder\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.csproj.AssemblyReference.cache
+D:\New folder\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.AssemblyInfoInputs.cache
+D:\New folder\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.AssemblyInfo.cs
+D:\New folder\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.csproj.CoreCompileInputs.cache
+D:\New folder\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.csproj.CopyComplete
+D:\New folder\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.dll
+D:\New folder\source\itwork\SoloDevApp.Service\obj\Debug\netcoreapp2.1\SoloDevApp.Service.pdb

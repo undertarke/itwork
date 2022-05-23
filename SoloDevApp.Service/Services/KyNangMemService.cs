@@ -51,7 +51,7 @@ namespace SoloDevApp.Service.Services
                 {
 
                     KyNangMem kyNangMem = new KyNangMem();
-                    kyNangMem.TenKyNang = item.TenKyNang;
+                    kyNangMem.TenKyNang = item.tenKyNang;
                     kyNangMem.NguoiDungId = model.NguoiDungId;
 
                     await _kyNangMemRepository.InsertAsync(kyNangMem);

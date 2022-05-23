@@ -45,15 +45,15 @@ namespace SoloDevApp.Service.Services
                     if (checkNguoiDung_Skill == null)
                     {
                         checkNguoiDung_Skill = new NguoiDung_Skill();
-                        checkNguoiDung_Skill.IdSkill = nguoiDung_Skill.IdSkill;   
-                        checkNguoiDung_Skill.NguoiDungId = nguoiDung_Skill.NguoiDungId;
-                        checkNguoiDung_Skill.CapDo = nguoiDung_Skill.CapDo;
+                        checkNguoiDung_Skill.IdSkill = nguoiDung_Skill.idSkill;   
+                        checkNguoiDung_Skill.NguoiDungId = nguoiDung_Skill.nguoiDungId;
+                        checkNguoiDung_Skill.CapDo = nguoiDung_Skill.capDo;
 
                         await _nguoiDung_SkillRepository.InsertAsync(checkNguoiDung_Skill);
                     }
                     else
                     {
-                        checkNguoiDung_Skill.CapDo= nguoiDung_Skill.CapDo;
+                        checkNguoiDung_Skill.CapDo= nguoiDung_Skill.capDo;
                         await _nguoiDung_SkillRepository.UpdateAsync(checkNguoiDung_Skill.Id,checkNguoiDung_Skill);
 
                     }

@@ -9,6 +9,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.IO;
+using Newtonsoft.Json;
+using SoloDevApp.Repository.Models;
 
 namespace SoloDevApp.Service.Utilities
 {
@@ -200,8 +202,10 @@ namespace SoloDevApp.Service.Utilities
         {
             userToken = userToken.Replace("Bearer ", "");
             JwtSecurityToken token = new JwtSecurityTokenHandler().ReadJwtToken(userToken);
-            string userId = token.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name).Value;
-            return userId;
+            string sToKen = token.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name).Value;
+            NguoiDung nguoiDung = JsonConvert.DeserializeObject<NguoiDung>(sToKen);
+
+            return nguoiDung.Id.ToString();
         }
 
         public static bool KiemTraHetHan(DateTime ngayHetHan)

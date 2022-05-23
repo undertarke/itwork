@@ -29,5 +29,6 @@ namespace SoloDevApp.Service.ViewModels
         public List<KinhNghiem> KinhNghiem { get; set; }
         public List<KyNangMem> KyNangMem { get; set; }
         public List<HoSo_Skill> HoSo_Skill { get; set; }
+        public List<NgoaiNgu> NgoaiNgu { get; set; }
     }
 }

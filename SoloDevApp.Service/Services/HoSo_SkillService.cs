@@ -52,9 +52,9 @@ namespace SoloDevApp.Service.Services
                 {
 
                     HoSo_Skill hoSo_Skill = new HoSo_Skill();
-                    hoSo_Skill.IdSkill = item.IdSkill;
-                    hoSo_Skill.NguoiDungId = item.NguoiDungId;
-                    hoSo_Skill.CapDo = item.CapDo;
+                    hoSo_Skill.IdSkill = item.idSkill;
+                    hoSo_Skill.NguoiDungId = item.nguoiDungId;
+                    hoSo_Skill.CapDo = item.capDo;
 
                     await _hoSo_SkillRepository.InsertAsync(hoSo_Skill);
                 }

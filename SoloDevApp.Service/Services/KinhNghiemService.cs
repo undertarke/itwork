@@ -51,12 +51,12 @@ namespace SoloDevApp.Service.Services
                 {
 
                     KinhNghiem kinhNghiem = new KinhNghiem();
-                    kinhNghiem.TenCongTy = item.TenCongTy;
-                    kinhNghiem.MoTa = item.MoTa;
-                    kinhNghiem.NgayBatDau = item.NgayBatDau;
-                    kinhNghiem.NgayKetThuc = item.NgayKetThuc;
+                    kinhNghiem.TenCongTy = item.tenCongTy;
+                    kinhNghiem.MoTa = item.moTa;
+                    kinhNghiem.NgayBatDau = item.ngayBatDau;
+                    kinhNghiem.NgayKetThuc = item.ngayKetThuc;
                     kinhNghiem.NguoiDungId = model.NguoiDungId;
-                    kinhNghiem.ChucDanh = item.ChucDanh;
+                    kinhNghiem.ChucDanh = item.chucDanh;
 
                     await _kinhNghiemRepository.InsertAsync(kinhNghiem);
                 }

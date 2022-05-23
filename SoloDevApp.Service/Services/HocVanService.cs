@@ -52,12 +52,12 @@ namespace SoloDevApp.Service.Services
                 {
 
                     HocVan hocVan = new HocVan();
-                    hocVan.TenTruong = item.TenTruong;
-                    hocVan.MoTa = item.MoTa;
-                    hocVan.ChuyenNganh = item.ChuyenNganh;
-                    hocVan.NamBatDau = item.NamBatDau;
-                    hocVan.NamKetThuc = item.NamKetThuc;
-                    hocVan.TrinhDo = item.TrinhDo;
+                    hocVan.TenTruong = item.tenTruong;
+                    hocVan.MoTa = item.moTa;
+                    hocVan.ChuyenNganh = item.chuyenNganh;
+                    hocVan.NamBatDau = item.namBatDau;
+                    hocVan.NamKetThuc = item.namKetThuc;
+                    hocVan.TrinhDo = item.trinhDo;
                     hocVan.NguoiDungId = model.NguoiDungId;
 
                     await _hocVanRepository.InsertAsync(hocVan);

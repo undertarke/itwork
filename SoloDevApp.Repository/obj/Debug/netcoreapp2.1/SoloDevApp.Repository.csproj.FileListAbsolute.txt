@@ -18,3 +18,13 @@ D:\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Reposi
 D:\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.csproj.CoreCompileInputs.cache
 D:\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.dll
 D:\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.pdb
+D:\New folder\source\itwork\SoloDevApp.Repository\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.deps.json
+D:\New folder\source\itwork\SoloDevApp.Repository\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.dll
+D:\New folder\source\itwork\SoloDevApp.Repository\bin\Debug\netcoreapp2.1\SoloDevApp.Repository.pdb
+D:\New folder\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.csproj.AssemblyReference.cache
+D:\New folder\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.AssemblyInfoInputs.cache
+D:\New folder\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.AssemblyInfo.cs
+D:\New folder\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.csproj.CoreCompileInputs.cache
+D:\New folder\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.dll
+D:\New folder\source\itwork\SoloDevApp.Repository\obj\Debug\netcoreapp2.1\SoloDevApp.Repository.pdb
